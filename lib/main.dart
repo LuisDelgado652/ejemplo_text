@@ -84,7 +84,9 @@ class _MyHomePageState extends State<MyHomePage> {
             style: DefaultTextStyle.of(context).style,
             children: const <TextSpan>[
               TextSpan(
-                  text: 'bold', style: TextStyle(fontWeight: FontWeight.bold)),
+                  text: 'bold',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold, color: Colors.purple)),
               TextSpan(text: ' world!'),
             ],
           ),
